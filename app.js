@@ -1,5 +1,8 @@
-const { characters, stealRing } = require('./characters.js');
-let myChars = characters;
-myChars = stealRing(myChars, 'Frodo');
+const log = require('./characters.js');
 
-characters.map(c => console.log(c));
+// let myChars = characters;
+// myChars = stealRing(myChars, 'Frodo');
+//
+// characters.map(c => console.log(c));
+
+log();
