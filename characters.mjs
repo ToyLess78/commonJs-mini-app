@@ -5,3 +5,7 @@ export const characters = [
 export function greet(character) {
     console.log('Congratulation ' + character);
 }
+
+export default function log() {
+    console.log('log');
+}

@@ -2,6 +2,7 @@
 //
 // characters.map(c => greet(c));
 
-import * as char  from './characters.mjs';
+import log, * as char  from './characters.mjs';
 
 char.characters.map(c => char.greet(c));
+log();
