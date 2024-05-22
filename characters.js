@@ -4,7 +4,7 @@ let characters = [
 ];
 
 function stealRing(characters, owner) {
-    characters.map(c => {
+    return characters.map(c => {
         c.hasRing = c.name === owner;
     })
 }
